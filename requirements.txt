@@ -1,2 +1,5 @@
 streamlit
 openai
+tiktoken
+PyPDF2
+python-dotenv
