@@ -27,7 +27,7 @@ print(openai_api_key)
 openai.api_key = openai_api_key
 embeddings = OpenAIEmbeddings(openai_api_key=openai_api_key)
 
-img_path = r'C:\Users\PC\Desktop\neurachat_logo.png'
+img_path = r'neurachat_logo.png'
 img = Image.open(img_path)
 
 # Resize the image
